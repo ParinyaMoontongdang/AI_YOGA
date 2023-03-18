@@ -140,7 +140,7 @@ def gen_frames():
               frame, _ = pose_result
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+CORS(app)
 
 # Create start.html
 @app.route('/')
