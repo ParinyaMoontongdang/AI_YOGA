@@ -1,3 +1,4 @@
+#!/usr/bin/python3.8
 from flask import Flask, render_template, Response
 from flask_cors import CORS
 import cv2
